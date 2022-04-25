@@ -4,13 +4,6 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.wrapper{
-    width: 1170px;
-    margin: 0 auto;
-    height: 100%;
-    position: relative;
-}
-
 .main-page{
     background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
     height: 100%;
@@ -18,6 +11,13 @@ body{
     flex-direction: column;
 }
 
+.wrapper{
+    width: 1170px;
+        margin: 0 auto;
+        height: 100%;
+        position: relative;
+    }
+    
 header{
     margin-top: 32px;
     margin-bottom: 56px;
@@ -90,4 +90,86 @@ header{
 
 .banderogoose-image{
     align-self: flex-end;
+}
+
+.goose-facts{
+    padding: 52px 0px 72px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facts-tittle{
+    font-weight: 600;       
+    font-size: 48px;        
+    line-height: 100px;         
+    color: #1B1D1F;
+    margin: 16px auto;
+}
+
+.facts-descr{
+    width: 876px;
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.facts-container{
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.goose-fact-item{
+    width: 33%;
+}
+
+.fact-tittle{
+    margin: 12px auto 32px auto;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+
+.fact-descr{
+    width: 380px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+
+.victory-foter{
+    display: flex;
+    justify-content: center;
+}
+
+.victory-bg{
+    width: 1170px;
+    background: linear-gradient(270deg, #C1E8FF 0%, #FFFFFF 100%);
+    margin-bottom: 72px;
+    padding: 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-tittle{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    margin: 16px auto;
+    color: #1B1D1F;
+}
+
+.victory-descr{
+    width: 880px;
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
 }
