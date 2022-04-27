@@ -1,6 +1,8 @@
 # bandero-goose
 This is the GoIT marathon. DESIGN, HTML+CSS, QA, PM. It's second for me.
 
+[My Bandero-Goose](https://splendorous-dodol-d51645.netlify.app/)
+
 emmet features:
     - ".some-name" - creates <div class="some-name"></div>
     - "p.some-name" - creates <p class="some-name"></p>
