@@ -8,7 +8,7 @@ emmet features:
     - "p.some-name" - creates  ```<p class="some-name"></p>```  
     - "(.some-conteiner>img.some-img+p.some-p)*3" - creates 3 same structures:  
     
-    ```groovy
+    ```html
     <div class="goose-fact-item">  
         <img src="" alt="" class="fact-img">  
         <h4 class="fact-tittle"></h4>  
